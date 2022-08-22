@@ -60,5 +60,6 @@ class BirdsController < ApplicationController
   def bird_params
     params.permit(:name, :species, :likes)
   end
+  
 
 end
